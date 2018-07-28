@@ -1,0 +1,64 @@
+body{
+  font-family: 'Palanquin';
+}
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: grey;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none;
+}
+@font-face {
+    font-family: Palanquin;
+    src: url(fonts/Palanquin-Regular.ttf);
+}
+}
+.logo{
+width: 10%;
+height: 10%;
+}
+#bar{
+margin-top: 10%;
+text-align: right;
+}
+#galeria{}
+#onas{}
+#kontakt{
+
+}
+  @media(min-width:767px) {
+      .navbar {
+          padding: 20px 0;
+          -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+          -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+          transition: background .5s ease-in-out,padding .5s ease-in-out;
+      }
+
+      .top-nav-collapse {
+          padding: 0;
+      }
+  }
+#icon{
+  width: 30%;
+  height: 30%;
+}
+#jpg3{
+  width: 85%;
+  height: 85%;
+}
