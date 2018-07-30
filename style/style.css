@@ -1,61 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda');
-#page-top{
-  font-family: 'Merienda';
-}
-/* Remove the navbar's default margin-bottom and rounded borders */
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-}
 
-#a{
-  width: 100%;
-}
-
-/* Add a gray background color and some padding to the footer */
 footer {
   background-color: #222222;
   padding: 25px;
 }
 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.bg-grey{
+  background-color: #222222;
+}
 .carousel-inner img {
-  width: 100%; /* Set width to 100% */
+  width: 100%;
   margin: auto;
   min-height:200px;
 }
+.navbar-toggler{
+  margin-left: 80%;
+  margin-top: -12%;
+}
+#logo{
+width: 15%;
+height: 15%;
+}
 
-/* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px) {
-.carousel-caption {
-  display: none;
+#a{
+  width: 100%;
 }
-}
-.logo{
-width: 7%;
-height: 7%;
-}
-#galeria{}
-#onas{}
-#kontakt{
-
-}
-  @media(min-width:767px) {
-      .navbar {
-          padding: 20px 0;
-          -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-          -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-          transition: background .5s ease-in-out,padding .5s ease-in-out;
-      }
-
-      .top-nav-collapse {
-          padding: 0;
-      }
-  }
 #icon{
   width: 30%;
   height: 30%;
 }
 #jpg3{
-  width: 85%;
-  height: 85%;
+  width: 100%;
+  height: 100%;
+}
+#onas-text{
+  font-size: 23px;
+}
+#page-top{
+  font-family: 'Merienda';
+}
+
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none;
+}
 }
