@@ -1,5 +1,6 @@
-body{
-  font-family: 'Palanquin';
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+#page-top{
+  font-family: 'Merienda';
 }
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
@@ -7,9 +8,13 @@ body{
   border-radius: 0;
 }
 
+#a{
+  width: 100%;
+}
+
 /* Add a gray background color and some padding to the footer */
 footer {
-  background-color: grey;
+  background-color: #222222;
   padding: 25px;
 }
 
@@ -23,10 +28,6 @@ footer {
 @media (max-width: 600px) {
 .carousel-caption {
   display: none;
-}
-@font-face {
-    font-family: Palanquin;
-    src: url(fonts/Palanquin-Regular.ttf);
 }
 }
 .logo{
