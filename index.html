@@ -8,11 +8,16 @@
   <link rel="icon" href="jpg/icon.jpg">
   <link rel="stylesheet" href="style/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-  <nav class="navbar navbar-dark bg-grey navbar-expand-md" id="myScrollspy">
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
+  <div class="icon-bar">
+    <a href="https://www.facebook.com/SZOT-1639032482861374/" class="Facebook">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+  </div>
+  <nav class="navbar navbar-dark bg-grey navbar-expand-md sticky-top" id="myScrollspy">
 
     <a class="navbar-brand" href="#page-top">
         <img src="jpg/logo.png" id="logo">
@@ -46,7 +51,6 @@
           <h3>Text</h3>
         </div>
       </div>
-
       <div class="item carousel-item">
         <img src="jpg/2.jpg" alt="Image" id="a">
         <div class="carousel-caption">
@@ -88,22 +92,17 @@
   <h1 style="text-align: center;">Kontakt</h></br></br>
 
 <section id="kontakt">
-  <div class="container">
-    <div class="row">
-        <div class="col-sm">
-            <h1>Facebook</h></br>
-            <a href="https://www.facebook.com/SZOT-1639032482861374/">
-              <img src="jpg/fb.png" id="fb"></img>
-            </a>
-        </div>
-        <div class="col-sm">
-            <h1>Telefon</h>
-            <h1>000000000</h>
-        </div>
-        <div class="col-sm">
-            <h1>Coś jeszcze</h>
-        </div>
-    </div>
+  <div class="media border p-3">
+      <i class="fas fa-phone"></i>
+      <div class="media-body">
+          <h1>000000000</h>
+      </div>
+  </div>
+  <div class="media border p-3">
+      <i class="fas fa-envelope"></i>
+      <div class="media-body">
+          <h3>ajjwuihv@awdw.com</h>
+      </div>
   </div>
 </section>
 
@@ -116,6 +115,10 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="js/smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 
 </body>
 </html>

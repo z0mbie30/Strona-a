@@ -22,8 +22,8 @@ footer {
   margin-top: -12%;
 }
 #logo{
-width: 15%;
-height: 15%;
+width: 12%;
+height: 12%;
 }
 #fb{
   width: 30%;
@@ -46,7 +46,36 @@ height: 15%;
 #page-top{
   font-family: 'Merienda';
 }
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 99;
 
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+  padding: 16px;
+  font-size: 40px;
+  background-color: #222222;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #3B5998;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
 @media (max-width: 600px) {
 .carousel-caption {
   display: none;
